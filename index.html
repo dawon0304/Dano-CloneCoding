@@ -24,21 +24,26 @@
   
 <body>
   <div class="login">
-    <div class="login_inner">
-      <div class="xmark"><i class="fa-solid fa-xmark fa-2x"></i></div>
-      <div><i class="fa-solid fa-children fa-4x"></i></div>
-      <div><h1>Member Login</h1></div>
-      <div class="input">
-        <div>ID: <input type="id" class="id" ></div>
-        <div>PW: <input type="password" class="password"></div>
+    <i class="fa-solid fa-xmark fa-2x"></i>
+    <header>
+      <img src="./img/다노샵.svg" alt="">
+    </header>
+    <div class="login_conatiner">
+      <h1>로그인</h1>
+      <div class="login-input">
+        <input type="ID" placeholder="아이디">
+        <input type="password" placeholder="비밀번호">
       </div>
-      <button>로그인</button>
-      <button>정보찾기</button>
-      <button>회원가입</button>
+      <div class="login_button">
+        <button class="id">로그인</button>
+        <button class="pw">회원가입</button>
+      </div>
     </div>
   </div>
+
+
   <div class="header">
-    <nav class="navbar  bg-light">
+    <nav class="navbar">
       <div class="container-fluid">
         <img src="./img/다노샵.png" width="200px" height="100px" alt="">
         <img src="./img/다노로고찐.png" alt="">
@@ -53,7 +58,7 @@
     </nav>
     
     <div class="menue ">
-      <ul class="nav nav-tabs p-1.5" id="myTab" role="tablist">
+      <ul class="nav nav-tabs p-1.5 " id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
             role="tab" aria-controls="home" aria-selected="true">Home</button>
@@ -289,7 +294,49 @@
     </div>
 
     <footer>
-      
+      <div>
+        <div class="banner">
+          <img src="./img/푸터1.png" alt="">
+        </div>
+        <div class="chat">
+          <h3><i class="fa-solid fa-headset"></i>무엇을 도와드릴까요?</h3>
+          <p>평일 10:00 ~ 18:00 (주말 및 공휴일 휴무)</p>
+          <p>점심시간 12:30 ~ 13:30</p>
+          <p class="kakao">
+            <a href="https://accounts.kakao.com/login?continue=http%3A%2F%2Fpf.kakao.com%2F_xjNxlxdu%2Fchat">
+              채팅 상담하기
+            </a>
+          </p>
+        </div>
+        <div class="sns">
+          <h3>다노 채널</h3>
+          <a href=""><img src="./img/유투브.png" alt=""></a>
+          <a href=""><img src="./img/인스타그램.png" alt=""></a>
+          <a href=""><img src="./img/블로그.png" alt=""></a>
+          <a href=""><img src="./img/페이스북.png" alt=""></a>
+        </div>
+        <div class="제휴">
+          <h3>제휴/입점문의</h3>
+          <h4>입점 제안 문의 (danoshop.md@gmail.com)</h4>
+          <h4>마케팅 제휴 문의 (dano.mkt@gmail.com)</h4>
+        </div>
+
+        <div class="footerBox">
+          <ul class="terms">
+            <h4><a href="">통합약관</a></h4>
+            <h4><a href="">이용약관</a></h4>
+            <h4><a href="">개인정보처리방침</a></h4>
+          </ul>
+          <span class="terms-bottom">
+            <p> 대표: 정범윤</span> <p>주소:서울시 마포구 토정로 271 (주)다노<br></p>
+            <p>사업자등록번호:106-87-00202 사업자 정보 확인<br></p>
+            개인정보보호책임자: 이지수<br>
+            통신판매업 신고번호: 제2017-마포-0722<br>
+            건강기능식품판매업 신고번호: 제 2018-0069040호<br>
+            Copyright © DANO, Inc.All Rights Reserved.
+          </p>
+        </div>
+      </div>
     </footer>
     
   </div>
